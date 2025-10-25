@@ -1,0 +1,35 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "A weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "initial": "npm install --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin html-loader css-loader style-loader ",
+    "install_lint": "npm init @eslint/config@latest",
+    "install_prettier": "npm install --save-dev --save-exact prettier"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sirjandeep-Singh/WeatherApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sirjandeep-Singh/WeatherApp/issues"
+  },
+  "homepage": "https://github.com/Sirjandeep-Singh/WeatherApp#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "eslint": "^9.38.0",
+    "globals": "^16.4.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.4",
+    "prettier": "3.6.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
