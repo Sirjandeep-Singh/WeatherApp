@@ -4,10 +4,13 @@
   "description": "A weather app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "initial": "npm install --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin html-loader css-loader style-loader ",
-    "install_lint": "npm init @eslint/config@latest",
-    "install_prettier": "npm install --save-dev --save-exact prettier"
+    "test": "jest",
+    "AutoTest": "jest --watch *.js",
+    "jestToES6": "npm install --save-dev babel-jest @babel/core @babel/preset-env",
+    "installWebpack": "npm install --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin html-loader css-loader style-loader ",
+    "installESLint": "npm init @eslint/config@latest",
+    "installPrettier": "npm install --save-dev --save-exact prettier",
+    "installJest":"npm install --save-dev jest"
   },
   "repository": {
     "type": "git",
